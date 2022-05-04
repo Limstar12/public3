@@ -2,36 +2,84 @@
 
 .sec1{
     background-image: url('/boot3/public3/img/sec1/sec1_bg.gif');
-    height: 800px;
-    .ctl1{
+    background-size: cover;    
+    .inner1{
         .row1{
             .write{
-                h3{
-            
-                }
-                h1{
-            
+                p{ 
+                    font-size: 2.5rem;
+                    font-family: 'GmarketSansMedium';
+                    span{
+                        font-size: 10rem;
+                        font-family: 'GmarketSansBold';
+                        color: #172cce;
+                    }
                 }
                 .yellowImg{
-                    background-image: url(/boot3/public3/img/sec1/yellow.png);
-
-                    h5{
-                    
+                    background-image: url(/boot3/public3/img/sec1/yellow.png);  
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 33%;
+                    margin-top: -6%;   
+                    min-width: 282px;                                  
+                    p{
+                        text-transform: uppercase;
+                        font-family: 'GmarketSansMedium';
+                        color: #172cce;
+                        font-size: 1.8rem;
+                        margin: 0;                       
+                        span{
+                            font-family: 'GmarketSansBold';
+                            font-size: 1.8rem;
+                        }
                     }
                 }
             }
             .humanBox{
+                
                 .woman{
                     background-image: url(/boot3/public3/img/sec1/woman.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                    width: 23%;
+                    height: 0;
+                    padding-bottom: 23%;
+                    right: 2%;
+                    top: -13%;
                 }
                 .tube{
                     background-image: url(/boot3/public3/img/sec1/tube.png);
-                }
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                    width: 17%;
+                    height: 0;
+                    padding-bottom: 11%;
+                    left: 2%;
+                    top: 15%;
+                }   
                 .tubeman{
                     background-image: url(/boot3/public3/img/sec1/tube_man.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                    width: 18%;
+                    height: 0;
+                    padding-bottom: 18%;
+                    left: 0;
+                    bottom: 7%;
                 }
                 .tubewoman{
                     background-image: url(/boot3/public3/img/sec1/tube_woman.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                    width: 23%;
+                    height: 0;
+                    padding-bottom: 23%;
+                    right: 0;
+                    bottom: 0;
                 }
                 .tubehuman{
                     background-image: url(/boot3/public3/img/sec1/human.png);
@@ -40,7 +88,90 @@
                     background-size: auto 100%;
                     width: 100%;
                     height: 0;
-                    padding-bottom: 30%;
+                    padding-bottom: 52%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width : 1199px){
+    .sec1{
+        .inner1{
+            .row1{
+                .write{
+                    p{ 
+                        span{
+                        }
+                    }
+                    .yellowImg{                        
+                        p{
+                            font-size: 1.4rem;
+                            span{
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width : 1054px){
+    .sec1{
+        background-size:unset;
+        background-position: center;
+        .inner1{
+            .row1{
+                .write{
+                    p{ 
+                        span{
+                        }
+                    }
+                    .yellowImg{
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width : 499px){
+    .sec1{
+        .inner1{
+            .row1{
+                .write{
+                    p{
+                        font-size: 1.5rem; 
+                        span{
+                            font-size: 6.5rem;
+                        }
+                    }
+                    .yellowImg{                        
+                        p{                            
+                            span{                                
+                            }
+                        }
+                    }
+                }
+                .humanBox{
+                
+                    .woman{
+                        top: -3%;             
+                    }
+                    .tube{
+                    }   
+                    .tubeman{
+                    }
+                    .tubewoman{
+                    }
+                    .tubehuman{
+                    }
                 }
             }
         }
@@ -48,23 +179,60 @@
 }
 
 
+
 ///////////////////////////// section2 /////////////////////////////
 
 .sec2{
-    .ctl2{
+    background-color: #60bfe2;
+    height: 800px;
+    .inner2{
         .row2{
+            p{
+                .oneBox{
+                    .one_box{
+                        .One{
 
+                        }
+                        p{
+                            span{
+
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
+
+.one_box1{
+
+}
+
+.one_box2{
+    
+}
+
+.one_box3{
+    
+}
+
+///////////////////////////// section3 /////////////////////////////
+
+.sec3{
+    .inner3{
+        .row3{
+            
         }
     }
 }
 
 
-
 ///////////////////////////// section3 /////////////////////////////
 
-.sec3{
-    .ctl3{
-        .row3{
+.sec4{
+    .inner4{
+        .row4{
             
         }
     }
