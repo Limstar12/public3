@@ -139,6 +139,68 @@
   background-image: url("/boot3/public3/img/sec2/App_sale.png");
 }
 
+.sec3 {
+  background-color: #ffffff;
+  height: 800px;
+}
+
+.sec3 .inner3 .row3 p {
+  font-size: 2.5rem;
+  font-family: 'GmarketSansLight';
+  color: #000000;
+}
+
+.sec3 .inner3 .row3 p span {
+  font-family: 'GmarketSansBold';
+}
+
+.sec3 .inner3 .row3 .sec3Box .sec3_imgBox .imgBox .sec3Img {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.sec3 .inner3 .row3 .sec3Box .sec3_imgBox .imgBox .pointBox {
+  top: 0;
+  left: 0;
+  background-color: #344aef;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  transform: translate(23%, -53%);
+}
+
+.sec3 .inner3 .row3 .sec3Box .sec3_imgBox .imgBox .pointBox span {
+  color: #f5e85a;
+  font-family: 'GmarketSansMedium';
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.sec3 .inner3 .row3 .sec3Box .sec3_imgBox p {
+  color: #000000;
+  font-family: 'GmarketSansBold';
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.sec3Img1 {
+  background-image: url("/boot3/public3/img/sec3/point_1.jpg");
+  background-size: auto 100%;
+  background-position: calc(100% + 101px);
+}
+
+.sec3Img2 {
+  background-image: url("/boot3/public3/img/sec3/point_2.jpg");
+  background-size: 100%;
+}
+
+.sec3Img3 {
+  background-image: url("/boot3/public3/img/sec3/point_3.jpg");
+  background-size: 100%;
+}
+
 @media (max-width: 1199px) {
   .sec1 .inner1 .row1 .write .yellowImg p {
     font-size: 1.4rem;

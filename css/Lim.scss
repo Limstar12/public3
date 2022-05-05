@@ -150,15 +150,71 @@
 ///////////////////////////// section3 /////////////////////////////
 
 .sec3{
+    background-color: #ffffff;
+    height: 800px;
     .inner3{
         .row3{
-            
+            p{
+                font-size: 2.5rem;
+                font-family: 'GmarketSansLight';
+                color: #000000;
+                span{
+                    font-family: 'GmarketSansBold';
+                }
+            }
+            .sec3Box{
+                .sec3_imgBox{
+                    .imgBox{
+                        .sec3Img{
+                            background-repeat: no-repeat;
+                            width: 100%;
+                            height: 0;
+                            padding-bottom: 100%;
+                        }
+                        .pointBox{
+                            top: 0;
+                            left: 0;
+                            background-color: #344aef;
+                            border-radius: 50%;
+                            width: 5rem;
+                            height: 5rem;
+                            transform: translate(23%, -53%);
+                            span{
+                                color: #f5e85a;
+                                font-family: 'GmarketSansMedium';
+                                font-size: 1rem;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                    p{
+                        color: #000000;
+                        font-family: 'GmarketSansBold';
+                        font-size: 1.5rem;
+                        text-transform: uppercase;
+                    }
+                }
+            }
         }
     }
 }
 
+.sec3Img1{
+    background-image: url('/boot3/public3/img/sec3/point_1.jpg');
+    background-size: auto 100%;
+    background-position: calc(100% + 101px);
+}
+.sec3Img2{
+    background-image: url('/boot3/public3/img/sec3/point_2.jpg');
+    background-size: 100%;
+}
+.sec3Img3{
+    background-image: url('/boot3/public3/img/sec3/point_3.jpg');
+    background-size: 100%;
+}
 
-///////////////////////////// section3 /////////////////////////////
+
+///////////////////////////// section4 /////////////////////////////
 
 .sec4{
     .inner4{
