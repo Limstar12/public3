@@ -151,7 +151,6 @@
 
 .sec3{
     background-color: #ffffff;
-    height: 800px;
     .inner3{
         .row3_1{
             p{
@@ -263,9 +262,50 @@
 ///////////////////////////// section4 /////////////////////////////
 
 .sec4{
+    background-color: #344aef;
+    height: 800px;
     .inner4{
         .row4{
-            
+            .sec4Text{
+                p{
+                    font-family: 'GmarketSansBold';
+                    font-size: 2.5rem;
+                    color: #f7ec6c;
+                }
+                span{
+                    font-size: 1rem;
+                    font-family: 'GmarketSansLight';
+                    color: #ffffff;
+                }
+            }
+            .sec4Box{
+
+                .pakageText{
+                    border-bottom: 2px #ffffff solid;
+                    span{
+                        font-family: 'GmarketSansMedium';
+                        text-transform: uppercase;
+                        color: #ffffff;
+                        font-size: 1rem;
+                    }
+                }
+                .pakageBox{
+                    text-transform: uppercase;
+                    font-family: 'GmarketSansMedium';
+                    color: #ffffff;
+                    font-size: 1rem;
+                    border-bottom: 1px #ffffff solid;
+                    p{
+
+                    }
+                    .roomtype{
+
+                    }
+                    p{
+
+                    }
+                }
+            }
         }
     }
 }
