@@ -144,24 +144,24 @@
   height: 800px;
 }
 
-.sec3 .inner3 .row3 p {
+.sec3 .inner3 .row3_1 p {
   font-size: 2.5rem;
   font-family: 'GmarketSansLight';
   color: #000000;
 }
 
-.sec3 .inner3 .row3 p span {
+.sec3 .inner3 .row3_1 p span {
   font-family: 'GmarketSansBold';
 }
 
-.sec3 .inner3 .row3 .sec3Box .sec3_imgBox .imgBox .sec3Img {
+.sec3 .inner3 .row3_1 .sec3Box .sec3_imgBox .imgBox .sec3Img {
   background-repeat: no-repeat;
   width: 100%;
   height: 0;
   padding-bottom: 100%;
 }
 
-.sec3 .inner3 .row3 .sec3Box .sec3_imgBox .imgBox .pointBox {
+.sec3 .inner3 .row3_1 .sec3Box .sec3_imgBox .imgBox .pointBox {
   top: 0;
   left: 0;
   background-color: #344aef;
@@ -171,18 +171,60 @@
   transform: translate(23%, -53%);
 }
 
-.sec3 .inner3 .row3 .sec3Box .sec3_imgBox .imgBox .pointBox span {
+.sec3 .inner3 .row3_1 .sec3Box .sec3_imgBox .imgBox .pointBox span {
   color: #f5e85a;
   font-family: 'GmarketSansMedium';
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-.sec3 .inner3 .row3 .sec3Box .sec3_imgBox p {
+.sec3 .inner3 .row3_1 .sec3Box .sec3_imgBox p {
   color: #000000;
   font-family: 'GmarketSansBold';
   font-size: 1.5rem;
   text-transform: uppercase;
+}
+
+.sec3 .inner3 .row3_2 p {
+  font-size: 2.5rem;
+  font-family: 'GmarketSansLight';
+  color: #000000;
+}
+
+.sec3 .inner3 .row3_2 p span {
+  font-family: 'GmarketSansBold';
+}
+
+.sec3 .inner3 .row3_2 .poolBox .poolImg {
+  background-image: url("/boot3/public3/img/sec3/pool.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 0;
+  padding-bottom: calc(576 / 1453 * 100%);
+}
+
+.sec3 .inner3 .row3_2 .poolBox .poolText .row3_2_p1 {
+  font-size: 2.5rem;
+  font-family: 'GmarketSansMedium';
+  color: #000000;
+}
+
+.sec3 .inner3 .row3_2 .poolBox .poolText .row3_2_p1 span {
+  font-size: 1.5rem;
+  color: #476fc6;
+}
+
+.sec3 .inner3 .row3_2 .poolBox .poolText .row3_2_p2 {
+  font-size: 1rem;
+  font-family: 'GmarketSansMedium';
+  color: #000000;
+}
+
+.sec3 .inner3 .row3_2 .poolBox .poolText .row3_2_span3 {
+  font-size: 1rem;
+  font-family: 'GmarketSansMedium';
+  color: #000000;
+  background-color: #f7ec6c;
 }
 
 .sec3Img1 {

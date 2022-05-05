@@ -153,7 +153,7 @@
     background-color: #ffffff;
     height: 800px;
     .inner3{
-        .row3{
+        .row3_1{
             p{
                 font-size: 2.5rem;
                 font-family: 'GmarketSansLight';
@@ -192,6 +192,48 @@
                         font-family: 'GmarketSansBold';
                         font-size: 1.5rem;
                         text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .row3_2{
+            p{
+                font-size: 2.5rem;
+                font-family: 'GmarketSansLight';
+                color: #000000;
+                span{
+                    font-family: 'GmarketSansBold';
+                }
+            }
+            .poolBox{
+                .poolImg{
+                    background-image: url('/boot3/public3/img/sec3/pool.jpg');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    height: 0;
+                    padding-bottom: calc(576 / 1453 * 100%);
+
+                }
+                .poolText{
+                    .row3_2_p1{
+                        font-size: 2.5rem;
+                        font-family: 'GmarketSansMedium';
+                        color: #000000;
+                        span{
+                            font-size: 1.5rem;
+                            color: #476fc6;
+                        }
+                    }
+                    .row3_2_p2{
+                        font-size: 1rem;
+                        font-family: 'GmarketSansMedium';
+                        color: #000000;
+                    }
+                    .row3_2_span3{
+                        font-size: 1rem;
+                        font-family: 'GmarketSansMedium';
+                        color: #000000;
+                        background-color: #f7ec6c;
                     }
                 }
             }
