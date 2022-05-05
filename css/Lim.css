@@ -6,6 +6,7 @@
 .sec1 .inner1 .row1 .write p {
   font-size: 2.5rem;
   font-family: 'GmarketSansMedium';
+  color: #0c0c0c;
 }
 
 .sec1 .inner1 .row1 .write p span {
@@ -94,6 +95,50 @@
   padding-bottom: 52%;
 }
 
+.sec2 {
+  background-color: #60bfe2;
+}
+
+.sec2 .inner2 .row2 p {
+  font-size: 2.5rem;
+  font-family: 'GmarketSansMedium';
+  color: #ffffff;
+}
+
+.sec2 .inner2 .row2 .oneBox .one_box .One {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+}
+
+.sec2 .inner2 .row2 .oneBox .one_box p {
+  font-family: 'GmarketSansLight';
+  font-size: 1.4rem;
+}
+
+.sec2 .inner2 .row2 .oneBox .one_box p span {
+  font-family: 'GmarketSansMedium';
+}
+
+.One.OneImg1 {
+  background-image: url("/boot3/public3/img/sec2/Breakfast.png");
+}
+
+.One.OneImg2 {
+  background-image: url("/boot3/public3/img/sec2/1day.png");
+}
+
+.One.OneImg3 {
+  background-image: url("/boot3/public3/img/sec2/App_sale.png");
+}
+
 @media (max-width: 1199px) {
   .sec1 .inner1 .row1 .write .yellowImg p {
     font-size: 1.4rem;
@@ -120,9 +165,7 @@
   .sec1 .inner1 .row1 .humanBox .woman {
     top: -3%;
   }
-}
-
-.sec2 {
-  background-color: #60bfe2;
-  height: 800px;
+  .sec2 .inner2 .row2 p {
+    font-size: 1.5rem;
+  }
 }
