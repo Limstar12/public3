@@ -220,6 +220,11 @@
   color: #000000;
 }
 
+.sec3 .inner3 .row3_2 .poolBox .poolText .row3_2_p2 span {
+  font-size: 1rem;
+  font-family: 'GmarketSansMedium';
+}
+
 .sec3 .inner3 .row3_2 .poolBox .poolText .row3_2_span3 {
   font-size: 1rem;
   font-family: 'GmarketSansMedium';
@@ -230,7 +235,7 @@
 .sec3Img1 {
   background-image: url("/boot3/public3/img/sec3/point_1.jpg");
   background-size: auto 100%;
-  background-position: calc(100% + 101px);
+  background-position: left bottom;
 }
 
 .sec3Img2 {
@@ -259,6 +264,27 @@
   }
 }
 
+@media (max-width: 767px) {
+  .sec3 .inner3 .row3_1 p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 586px) {
+  .sec3 .inner3 .row3_2 p span {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 541px) {
+  .sec3 .inner3 .row3_2 .poolBox .poolText .row3_2_p1 {
+    font-size: 1.5rem;
+  }
+  .sec3 .inner3 .row3_2 .poolBox .poolText .row3_2_p1 span {
+    font-size: 0.7rem;
+  }
+}
+
 @media (max-width: 499px) {
   .sec1 .inner1 .row1 .write p {
     font-size: 1.5rem;
@@ -270,6 +296,9 @@
     top: -3%;
   }
   .sec2 .inner2 .row2 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .sec3 .inner3 .row3_1 p {
+    font-size: 1.3rem;
   }
 }

@@ -228,6 +228,10 @@
                         font-size: 1rem;
                         font-family: 'GmarketSansMedium';
                         color: #000000;
+                        span{
+                            font-size: 1rem;
+                            font-family: 'GmarketSansMedium';
+                        }
                     }
                     .row3_2_span3{
                         font-size: 1rem;
@@ -244,7 +248,7 @@
 .sec3Img1{
     background-image: url('/boot3/public3/img/sec3/point_1.jpg');
     background-size: auto 100%;
-    background-position: calc(100% + 101px);
+    background-position: left bottom;
 }
 .sec3Img2{
     background-image: url('/boot3/public3/img/sec3/point_2.jpg');
@@ -293,6 +297,68 @@
             }
         }
     }
+    .sec2{
+        .inner2{
+            .row2{
+                p{
+                }
+                .oneBox{
+                    .one_box{
+                        .One{
+                        }
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec3{
+        .inner3{
+            .row3_1{
+                p{
+                    span{
+                    }
+                }
+                .sec3Box{
+                    .sec3_imgBox{
+                        .imgBox{
+                            .sec3Img{
+                            }
+                            .pointBox{
+                                span{
+                                }
+                            }
+                        }
+                        p{
+                        }
+                    }
+                }
+            }
+            .row3_2{
+                p{
+                    span{
+                    }
+                }
+                .poolBox{
+                    .poolImg{    
+                    }
+                    .poolText{
+                        .row3_2_p1{
+                            span{
+                            }
+                        }
+                        .row3_2_p2{
+                        }
+                        .row3_2_span3{
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media(max-width : 1054px){
@@ -310,6 +376,405 @@
                         p{
                             span{
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec2{
+        .inner2{
+            .row2{
+                p{
+                }
+                .oneBox{
+                    .one_box{
+                        .One{
+                        }
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec3{
+        .inner3{
+            .row3_1{
+                p{
+                    span{
+                    }
+                }
+                .sec3Box{
+                    .sec3_imgBox{
+                        .imgBox{
+                            .sec3Img{
+                            }
+                            .pointBox{
+                                span{
+                                }
+                            }
+                        }
+                        p{
+                        }
+                    }
+                }
+            }
+            .row3_2{
+                p{
+                    span{
+                    }
+                }
+                .poolBox{
+                    .poolImg{    
+                    }
+                    .poolText{
+                        .row3_2_p1{
+                            span{
+                            }
+                        }
+                        .row3_2_p2{
+                        }
+                        .row3_2_span3{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width : 889px){
+    .sec1{
+        .inner1{
+            .row1{
+                .write{
+                    p{ 
+                        span{
+                        }
+                    }
+                    .yellowImg{
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec2{
+        .inner2{
+            .row2{
+                p{
+                }
+                .oneBox{
+                    .one_box{
+                        .One{
+                        }
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec3{
+        .inner3{
+            .row3_1{
+                p{
+                    span{
+                    }
+                }
+                .sec3Box{
+                    .sec3_imgBox{
+                        .imgBox{
+                            .sec3Img{
+                            }
+                            .pointBox{
+                                span{
+                                }
+                            }
+                        }
+                        p{
+                        }
+                    }
+                }
+            }
+            .row3_2{
+                p{
+                    span{
+                    }
+                }
+                .poolBox{
+                    .poolImg{    
+                    }
+                    .poolText{
+                        .row3_2_p1{
+                            span{
+                            }
+                        }
+                        .row3_2_p2{
+                        }
+                        .row3_2_span3{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width : 767px){
+    .sec1{
+        .inner1{
+            .row1{
+                .write{
+                    p{ 
+                        span{
+                        }
+                    }
+                    .yellowImg{
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec2{
+        .inner2{
+            .row2{
+                p{
+                }
+                .oneBox{
+                    .one_box{
+                        .One{
+                        }
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec3{
+        .inner3{
+            .row3_1{
+                p{
+                    font-size: 2rem;
+                    span{
+                    }
+                }
+                .sec3Box{
+                    .sec3_imgBox{
+                        .imgBox{
+                            .sec3Img{
+                            }
+                            .pointBox{
+                                span{
+                                }
+                            }
+                        }
+                        p{
+                        }
+                    }
+                }
+            }
+            .row3_2{
+                p{
+                    span{
+                    }
+                }
+                .poolBox{
+                    .poolImg{    
+                    }
+                    .poolText{
+                        .row3_2_p1{
+                            span{
+                            }
+                        }
+                        .row3_2_p2{
+                        }
+                        .row3_2_span3{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width : 586px){
+    .sec1{
+        .inner1{
+            .row1{
+                .write{
+                    p{ 
+                        span{
+                        }
+                    }
+                    .yellowImg{
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec2{
+        .inner2{
+            .row2{
+                p{
+                }
+                .oneBox{
+                    .one_box{
+                        .One{
+                        }
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec3{
+        .inner3{
+            .row3_1{
+                p{
+                    span{
+                    }
+                }
+                .sec3Box{
+                    .sec3_imgBox{
+                        .imgBox{
+                            .sec3Img{
+                            }
+                            .pointBox{
+                                span{
+                                }
+                            }
+                        }
+                        p{
+                        }
+                    }
+                }
+            }
+            .row3_2{
+                p{
+                    span{
+                        font-size: 1.3rem;
+                    }
+                }
+                .poolBox{
+                    .poolImg{    
+                    }
+                    .poolText{
+                        .row3_2_p1{
+                            span{
+                            }
+                        }
+                        .row3_2_p2{
+                        }
+                        .row3_2_span3{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width : 541px){
+    .sec1{
+        .inner1{
+            .row1{
+                .write{
+                    p{ 
+                        span{
+                        }
+                    }
+                    .yellowImg{
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec2{
+        .inner2{
+            .row2{
+                p{
+                }
+                .oneBox{
+                    .one_box{
+                        .One{
+                        }
+                        p{
+                            span{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sec3{
+        .inner3{
+            .row3_1{
+                p{
+                    span{
+                    }
+                }
+                .sec3Box{
+                    .sec3_imgBox{
+                        .imgBox{
+                            .sec3Img{
+                            }
+                            .pointBox{
+                                span{
+                                }
+                            }
+                        }
+                        p{
+                        }
+                    }
+                }
+            }
+            .row3_2{
+                p{
+                    span{
+
+                    }
+                }
+                .poolBox{
+                    .poolImg{    
+                    }
+                    .poolText{
+                        .row3_2_p1{
+                            font-size: 1.5rem;
+                            span{
+                                font-size: 0.7rem;
+                            }
+                        }
+                        .row3_2_p2{
+                        }
+                        .row3_2_span3{
                         }
                     }
                 }
@@ -357,7 +822,7 @@
         .inner2{
             .row2{
                 p{
-                    font-size: 2rem;
+                    font-size: 1.8rem;
                 }
                 .oneBox{
                     .one_box{
@@ -374,5 +839,49 @@
             }
         }
     }
-
+    .sec3{
+        .inner3{
+            .row3_1{
+                p{
+                    font-size: 1.3rem;
+                    span{
+                    }
+                }
+                .sec3Box{
+                    .sec3_imgBox{
+                        .imgBox{
+                            .sec3Img{
+                            }
+                            .pointBox{
+                                span{
+                                }
+                            }
+                        }
+                        p{
+                        }
+                    }
+                }
+            }
+            .row3_2{
+                p{
+                    span{
+                    }
+                }
+                .poolBox{
+                    .poolImg{    
+                    }
+                    .poolText{
+                        .row3_2_p1{
+                            span{
+                            }
+                        }
+                        .row3_2_p2{
+                        }
+                        .row3_2_span3{
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
