@@ -249,7 +249,6 @@
 
 .sec4 {
   background-color: #344aef;
-  height: 800px;
 }
 
 .sec4 .inner4 .row4 .sec4Text p {
@@ -281,6 +280,11 @@
   color: #ffffff;
   font-size: 1rem;
   border-bottom: 1px #ffffff solid;
+}
+
+.sec4 .inner4 .row4 .sec4Box .pakageBox .roomtype span {
+  background-color: #f55d50;
+  border-radius: 5px;
 }
 
 @media (max-width: 1199px) {
@@ -335,5 +339,11 @@
   }
   .sec3 .inner3 .row3_1 p {
     font-size: 1.3rem;
+  }
+  .sec4 .inner4 .row4 .sec4Box .pakageText span {
+    font-size: 0.7rem;
+  }
+  .sec4 .inner4 .row4 .sec4Box .pakageBox {
+    font-size: 0.7rem;
   }
 }
